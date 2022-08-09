@@ -1,0 +1,24 @@
+{
+  "name": "2.4-api-assignment",
+  "version": "1.0.0",
+  "description": "api assignment randomuser",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Raymond Cato",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
